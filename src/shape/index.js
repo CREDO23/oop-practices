@@ -1,16 +1,25 @@
 "use strict";
 /**
- * Since this class as some methods that cannot be implemented
+ * ------------------------------------------
+ * ------- SHAPE HIEARCHY -------------------
+ * ------------------------------------------
+ *  Objective: Use abstraction, inheritance,
+ *             and polymorphism to create a
+ *             shape hierarchy.
+ * ------------------------------------------
+ */
+/**
+ * Since this class as a method that cannot be implemented
  * directly (they need specific type of shape) (e.g: calculating
  * the area). This class should not be instantiated directly, thus, abstract.
  *
  * We will have the possiblity to instanciate a shape after providing more
- * information about the type of shape .
+ * information about the type of the shape .
  *
  * Eg : A Circle, Rectangle, etc  .
  *
  *
- * Each of these shapes has its way of determining the area, so it should
+ * Each of these shapes has its own way of determining the area, so it should
  * implement the calculateArea method.
  */
 class Shape {
@@ -56,6 +65,7 @@ class Square extends Shape {
         this.area = this.side * this.side;
     }
 }
+// Demonstration
 const circle = new Circle(34);
 const rectangle = new Rectangle(120, 40);
 const square = new Square(100);
@@ -63,4 +73,5 @@ const shapes = [circle, square, rectangle];
 shapes.forEach(shape => {
     shape.calculateArea();
     shape.displayArea();
+    console.log(`\n`);
 });

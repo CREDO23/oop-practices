@@ -1,6 +1,17 @@
-// Exercise 1: Library Management System
+/**
+ * ---------------------------------------------
+ * ------- LIBRARY MANAGMENT SYSTEM ------------
+ * ---------------------------------------------
+ * Objective: Design a simple library management
+ *            system to demonstrate encapsulation
+ *            and inheritance.
+ * ---------------------------------------------
+ */
 
-
+/**
+ * Since this class does not have abstract methods, we can keep
+ * it as a base class for all library items.
+ */
 class LibraryItem {
   constructor(
     protected title: string,
@@ -8,6 +19,12 @@ class LibraryItem {
     private isCheckedOut: boolean
   ) {}
 
+  /**
+   * The [isCheckedOut] member is protected (not exposed), all
+   * modifications of it are controlled in this method
+   *
+   * [Encapsulation]
+   */
   toggleCheckOutStatus() {
     this.isCheckedOut = !this.isCheckedOut;
   }
@@ -45,21 +62,23 @@ class DVD extends LibraryItem {
   }
 }
 
-
-
 // Demonstration
 
-const book = new Book( "Pragmatic Programmer", "Thierry", false, 400);
+const book = new Book("Pragmatic Programmer", "Thierry", false, 400);
 const dvd = new DVD("Real-life", "BAKERA", false, 400);
 
+console.log(book, `\n\n`, dvd);
 
-console.log(book, dvd)
+console.log(`\n`);
 
 book.getSummary();
-book.toggleCheckOutStatus()
+book.toggleCheckOutStatus();
+
+console.log(`\n`);
+
 dvd.play();
-dvd.toggleCheckOutStatus()
+dvd.toggleCheckOutStatus();
 
-console.log(book, dvd)
+console.log(`\n`);
 
-
+console.log(book, "\n\n", dvd);
