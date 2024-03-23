@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:library" : "tsc && node OOP/library/index.js"
+    "start:library" : "tsc && node src/library/index.js",
+    "start:shape" : "tsc && node src/shape/index.js"
   },
   "keywords": [],
   "author": "",

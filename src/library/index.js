@@ -1,4 +1,5 @@
 "use strict";
+// Exercise 1: Library Management System
 class LibraryItem {
     constructor(title, author, isCheckedOut) {
         this.title = title;
