@@ -7,8 +7,9 @@
  *             shape hierarchy.
  * ------------------------------------------
  */
+
 /**
- * Since this class as a method that cannot be implemented
+ * Since the Shape class as a method that cannot be implemented
  * directly (they need specific type of shape) (e.g: calculating
  * the area). This class should not be instantiated directly, thus, abstract.
  *

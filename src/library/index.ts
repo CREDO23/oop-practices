@@ -9,7 +9,7 @@
  */
 
 /**
- * Since this class does not have abstract methods, we can keep
+ * Since the LibraryItem class does not have abstract methods, we can keep
  * it as a base class for all library items.
  */
 class LibraryItem {
