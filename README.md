@@ -6,11 +6,12 @@ This repository contains practical exercises for the 4 Pillars of OOP with Types
 
 ## Usage:
 
-- Clone this repository
-- Install the typescript dependency with `npm install`
+- Clone this repository.
+- Install the typescript dependency with `npm install`.
 - You will find exerises under the `src` directory: 
-    - Implemetations & explanations are in the `index.ts` file
-    - You can run an exercise to see the output of the demonstration with the `npm run start:[name of the exercise's directory]`. E.g: `npm run start:kingdom`
+    - Implemetations & explanations are in the `index.ts` file.
+    - You can run an exercise to see the output of the demonstration with the `npm run start:[name of the exercise's directory]`. E.g: `npm run start:kingdom`.
+    - You can change / adapt the implementation for your better understanding as well.
 
 
 ## Contributing
