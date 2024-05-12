@@ -12,7 +12,7 @@ This repository contains practical exercises for learning how to write maintenab
 - Install the typescript dependency with `npm install`.
 - You will find exerises under the `src/[topic]` directory: 
     - Implemetations & explanations are directely written as comments in `index.ts` files.
-    - You can run an file containing the implementation to see the output with `tsc && node src/[topic]/[path to the file]`.
+    - You can run an file containing the implementation to see the output with `tsc && node src/[topic]/[path to the file].js`.
     - You can change / adapt the implementation for your better understanding as well.
 
 
