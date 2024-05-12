@@ -4,15 +4,15 @@
 
 ## Introduction
 
-This repository contains practical exercises for the 4 Pillars of OOP with Typescript implemetations (Encapsulation, Abstraction, Inheritence and Polymorphisme)
+This repository contains practical exercises for learning how to write maintenable, testable and scalable code in OOP with Typescript. It includes the 4 pillars, the 5 solid principles.
 
 ## Usage:
 
 - Clone this repository.
 - Install the typescript dependency with `npm install`.
-- You will find exerises under the `src` directory: 
-    - Implemetations & explanations are in the `index.ts` file.
-    - You can run an exercise to see the output of the demonstration with the `npm run start:[name of the exercise's directory]`. E.g: `npm run start:kingdom`.
+- You will find exerises under the `src/[topic]` directory: 
+    - Implemetations & explanations are directely written as comments in `index.ts` files.
+    - You can run an file containing the implementation to see the output with `tsc && node src/[topic]/[path to the file]`.
     - You can change / adapt the implementation for your better understanding as well.
 
 

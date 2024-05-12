@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start:library" : "tsc && node src/library/index.js",
-    "start:shape" : "tsc && node src/shape/index.js",
-    "start:kingdom" : "tsc && node src/kingdom/index.js"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
